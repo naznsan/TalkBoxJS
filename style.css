@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.keyboard {
+    padding: 1em;
+}
+
+.keys-upper {
+    display: flex;
+    flex-direction: row;
+}
+
+.keys-lower {
+    display: flex;
+    flex-direction: row;
+}
+
+.key {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 6em;
+    height: 10em;
+    padding-bottom: 0.25em;
+    text-align: center;
+}
+
+.key.sharp {
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
+
+#c-sharp {
+    margin-left: 3em;
+}
+
+#f-sharp {
+    margin-left: 6em;
+}
